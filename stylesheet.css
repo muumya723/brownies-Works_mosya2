@@ -1,0 +1,733 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "M PLUS 1p", メイリオ, Meiryo, sans-serif, 游ゴシック, "Yu Gothic", YuGothic;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+/* ここからCSSを書いていきましょう */
+/*ここからヘッダー*/
+header {
+  background-color: #FFF5EE;
+}
+.container {
+  margin:0 auto;
+  width: 76%;
+}
+.header-top {
+  padding-top:10px;
+  text-align: center;
+}
+.header-text {
+  padding-top:
+  text-align: center;
+  font-size: 11px;
+  font-weight: normal;
+  color:#999999;
+}
+.header-img {
+  width: 150px;
+  }
+
+.header-btn li{
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #FFD9BC;
+  width: 24.6%;
+  text-align: center;
+  font-weight: bold;
+  font-size:15px;
+}
+
+/*ここからヘッダーメイン部分*/
+/*containerのメイン部分だけを固定する*/
+.container-main {
+    margin:0 auto;
+    width: 80%;
+  display: flex;
+  padding:90px 20px;
+  /* max-width: 1170px; */
+}
+.text-left {
+  width: 50%;
+}
+.img-right {
+  width: 30%;
+}
+.container-wrapper {
+  background-color: #FFF5EE;
+}
+
+.text-left h1 {
+  font-size: 50px;
+  color: #500000;
+}
+.under {
+  background: linear-gradient(transparent 80%, #ff999f 70%);
+}
+.text-romu {
+  font-size: 20px;
+  color: #540000;
+  padding-top: 30px;
+}
+
+.text-bk {
+  font-size: 20px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+
+/* お問い合わせ・申し込み */
+.inq_req p{
+  display: inline-block;
+  padding:10px 5px;
+  color: #fff;
+  border-radius:20px;
+  font-weight: bold;
+}
+.inquiry {
+  background-color: #62423B;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.request {
+  background-color: #DC3C3C;
+  display: inline-block;
+}
+.inq_req {
+  text-align: center;
+}
+/* ミッション */
+.container-mission {
+  text-align: center;
+}
+.icontainer-mission img {
+  display: inlineblock;
+}
+
+.container-mission h1{
+  margin-bottom: 50px;
+}
+/* 問題 */
+.container-problems {
+  text-align: center;
+}
+
+.problem {
+  display: inline-block;
+  padding: 40px 90px;
+  margin: 60px 0;
+  background-color: #fff;
+}
+
+.test {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 70px;
+  padding: 0 30px;
+}
+.test_2 {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: right;
+}
+img {
+  margin-right: 40px;
+}
+
+/* 構築 */
+.rebuilding {
+  background-color: #fff;
+  width: 892px;
+  height: 451px;
+  border-radius: 15px;
+  border: solid 3px #62423B;
+  text-align: center;
+  margin: 0 auto;
+  padding:50px 15px;
+}
+
+.rebuilding-text_a {
+  color: #62423B;
+  padding-top: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.rebuilding-text_b {
+  color: #62423B;
+  font-size: 16px;
+  line-height: 30px;
+  padding:20px 30px;
+  text-align: left;
+}
+.more {
+  margin-top: 80px;
+}
+
+/* お片付け */
+.putaway img {
+  margin: 0 auto;
+}
+
+.container img {
+  margin: 0 auto;
+}
+
+/* ソリューション */
+.wrapper-solution {
+  height: 763px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.header-solution_a img{
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.header-solution_b {
+  font-size: 33px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.solution {
+  float: left;
+  width: 30%;
+  height:350px;
+  background-color: #FFF5ED;
+  margin:20px 10px;
+  border-radius: 8px;
+}
+
+.icon-solution {
+  padding-top: 30px;
+
+}
+.text-solution_a {
+  padding: 10px 0;
+  color: #530000;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-solution_b {
+  font-size: 15px;
+  text-align: left;
+  width: 91%;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+/* サービス */
+.wrapper-service {
+  padding-top: 80px;
+  height: 910px;
+  width: 100%;
+  text-align: center;
+  background-color: #FFF5ED;
+}
+.container {
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.header-service_b {
+  font-size: 37px;
+}
+.title-service {
+  background-color: #62423B;
+  color: #fff;
+  width: 523px;
+  height: 69px;
+  text-align: center;
+  border: 5px solid #62423B;
+  border-radius: 7px 7px 0px 0px;
+  line-height: 69px;
+}
+.contents-services {
+  width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+/* 利用ツールの選定と運用フローの設計 */
+.contents-service_a {
+  margin-top: 60px;
+  float: left;
+  width: 50%;
+}
+
+.mein-service_a {
+  border: 5px solid #62423B;
+  width: 523px;
+  height:378px;
+  border-radius: 0px 0px 7px 7px;
+  background-color: #fff;
+}
+.mein-service_a h5 {
+  line-height: 30px;
+  padding:30px 25px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+.mein-service_a p {
+  background-color: #FED9BC;
+  width: 147px;
+  height: 35px;
+  font-weight: bold;
+  line-height: 35px;
+  margin: 0 auto;
+}
+
+.imgs_a {
+    width: 501px;
+    height: 142px;
+    text-align: center;
+    margin: 0 auto;
+}
+.img_a_group_a {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.img_a_group_b {
+  margin-top: 20px;
+  margin-left: 30px;
+  float: left;
+}
+/* バックオフィスを丸ごと対応 */
+.contents-service_b {
+  margin-top: 60px;
+  float: left;
+  width: 50%;
+}
+.mein-service_b {
+  border: 5px solid #62423B;
+  width: 523px;
+  height:378px;
+  border-radius: 0px 0px 7px 7px;
+  background-color: #fff;
+}
+.mein-service_b h5 {
+  line-height: 30px;
+  padding:30px 25px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+.basic-servise {
+    background-color: #FED9BC;
+    width: 147px;
+    height: 35px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.keiri {
+    background-color: #396CF7;
+    width: 141px;
+    height: 51px;
+    line-height: 51px;
+    margin: 0 auto;
+    color: #fff;
+    font-size:  22px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 20px;
+}
+.romu {
+    background-color: #72D334;
+    width: 141px;
+    height: 51px;
+    line-height: 51px;
+    margin: 0 auto;
+    color: #fff;
+    font-size:  22px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+/* 基本サービス・経費生産・勤怠管理・出張手配 */
+.okkf {
+  margin-top: 20px;
+}
+.op {
+  float: left;
+  width: 180px;
+  margin-right: 50px;
+}
+.keihi {
+  display: inline-block;
+  width: 30%;
+}
+.kintai {
+  display: inline-block;
+  width: 30%;
+}
+.flight {
+  display: inline-block;
+  width: 30%;
+}
+.op-service {
+    background-color: #FED9BC;
+    width: 201px;
+    height: 35px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.another {
+  padding-top: 10px;
+  width: 200px;
+  height: 38px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.kkf {
+  padding-left: 10px;
+  width: 270px;
+  float: left;
+}
+.ser-plan {
+  height: 100px;
+  text-align: center;
+
+}
+.about-service {
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #62423B;
+  width: 360px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+.about-plan {
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #62423B;
+  width: 360px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+
+/* よくあるご質問 */
+/* よくある質問ヘッダー */
+.wrapper-question {
+  width: 100%;
+  height: 800px;
+}
+.header-question {
+  text-align: center;
+}
+.header-text-question {
+  padding-top: 15px;
+  font-size: 35px;
+  font-weight: bold;
+}
+/* よくある質問コンテンツ */
+.contents-question {
+  width: 1126px;
+  height: 439px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.abc {
+  width: 100%;
+  height: 141px;
+  border-bottom: 5px solid #DC3C3C;
+  color: #62423c;
+}
+.box {
+  margin: 0 auto;
+  width: 1%;
+  border-top: 15px solid #DC3C3C;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+.content-abc-logo-question {
+  float: left;
+  font-size: 50px;
+  padding:20px;
+}
+
+.content-abc-text-question {
+  padding: 25px;
+}
+.contents-abc-question {
+  width: 30%;
+  float: left;
+  background-color: #fff;
+  height: 431px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.content-abc-text-answer {
+  padding: 20px;
+}
+
+.more-question {
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #62423B;
+  width: 20%;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+/* NEWS */
+.wrapper-news {
+  background-color: #FFF5EE;
+  width: 100%;
+  height: 736px;
+}
+
+.contents-news {
+  background-color: #fff;
+  width: 1073px;
+  height: 540px;
+  border: 5px solid #62423c;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.header-news {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.news-abc h5 {
+  padding-left: 20px;
+  float: left;
+}
+.news-abc a{
+  margin-left: 60px;
+  color: red;
+  border-bottom: 2px solid #DC3C3C;
+  font-weight: bold;
+}
+.news-abc {
+  border-bottom: 5px solid #62423c;
+  padding: 20px 0;
+  width: 80%;
+  margin:0 auto;
+}
+
+.icon-news {
+  padding-top: 20px;
+}
+
+.news {
+  margin-bottom: 50px;
+}
+
+.contants-news {
+  background-color: red;
+}
+
+.more-news {
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #62423B;
+  width: 31%;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.contents-news {
+  margin-bottom: 200px;
+}
+
+/* contact */
+.wrapper-contact {
+  width: 100%;
+  height: 509px;
+  background-color: #DE5353;
+  color: #fff;
+}
+
+.header-contact {
+  text-align: center;
+  padding: 60px;
+}
+
+.ab-contacts {
+  text-align: center;
+  margin: 0 auto;
+  width: 951px;
+}
+
+.a-contacts {
+  float: left;
+  margin: 10px;
+  width: 446px;
+  display: inline-block;
+}
+
+.b-contacts {
+  float: left;
+  margin: 10px;
+  width: 446px;
+  display: inline-block;
+}
+
+.a-text-contact {
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #62423B;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 auto;
+}
+
+/* 検索 */
+.wraapper-search {
+  height: 422px;
+  width: 100%;
+  background-color: #FFF5EE;
+  text-align: center;
+}
+
+.header-search p{
+  float: left;
+}
+.header-search img{
+  float: left;
+}
+.header-search {
+  width: 580px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.text-a-search {
+  font-weight: bold;
+  margin-right: 15px;
+}
+.text-b-search {
+  background-color: #1877F2;
+  color: #fff;
+  font-size: 11px;
+  margin:0 2px;
+  border-radius: 3px;
+  padding: 2px;
+}
+.text-c-search {
+  background-color: #1B94E0;
+  color: #fff;
+  font-size: 11px;
+  margin:0 2px;
+  border-radius: 3px;
+  padding: 2px;
+}
+.text-d-search {
+  background-color: #17A4DF;
+  color: #fff;
+  font-size: 11px;
+  margin:0 2px;
+  border-radius: 3px;
+  padding: 2px;
+}
+.text-e-search {
+  background-color: #17A4DF;
+  color: #fff;
+  font-size: 11px;
+  margin:0 2px;
+  border-radius: 3px;
+  padding: 2px;
+  font-weight: bold;
+}
+.search-btn {
+  border: 1px solid #62423B;
+  border-radius: 25px;
+  height: 45px;
+  width: 650px;
+  margin: 20px;
+  font-size: 15px;
+  color: #757575;
+}
+.list-a-search span {
+  display: inline-block;
+  width: 222px;
+  margin:20px 10px;
+  font-weight: bold;
+  background: linear-gradient(transparent 50%, #FED9BC 50%);
+}
+/* footer */
+.wrapper-footer {
+  width: 100%;
+  height: 409px;
+  background-color: #FFF5EE;
+  text-align: center;
+}
+.contents-footer {
+  width: 894px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+.footer-btn {
+  clear: left;
+}
+.wrapper-footer img {
+  float: left;
+  width: 222px;
+}
+.syamei-footer h4 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.footer-btn-a {
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #DC3C3C;
+    width: 31%;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: inline-block;
+}
+.footer {
+  padding-top: 10px;
+  font-size: 13px;
+}
