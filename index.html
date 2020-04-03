@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
     <meta charset="utf-8">
     <title>Brownies</title>
     <!-- ここでFont Awesomeを読み込んでください -->
-<script src="https://kit.fontawesome.com/3e161cfde5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3e161cfde5.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -13,7 +15,7 @@
     <header>
       <div class="container">
         <div class="header-top">
-          <h5 class="header-text">経理・労務など中小企業のバックオフィスを丸ごとアウトソーシング。業務設計からツール選定・運用まで。</h5>
+          <h5 class="header-text"><span>経理・労務など</span>中小企業のバックオフィスを丸ごとアウトソーシング<span>。業務設計からツール選定・運用まで。</span></h5>
           <img class="header-img" src="https://www.brownies.works/wp/wp-content/uploads/2019/12/logo.png">
         </div>
         <ul class="header-btn">
@@ -28,29 +30,43 @@
     <!--こっからヘッダーメイン部分-->
     <div class="container-wrapper">
       <div class="container-main">
+        <div class="left-main">
+          <h1><span class="under">バックオフィスの課題<span class="font-small">を</span><br/>一気に解決</span></h1>
+          <img class="img-right" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/main_visual.png" width="589px">
+        </div>
+
         <div class="text-left">
-          <h1><span class="under">バックオフィスの課題を<br />一気に解決</span></h1>
           <h2 class="text-romu">労務・経理などの業務設計から運用までおまかせ</h2>
           <h2 class="text-bk">バックオフィスで悩んでいること、<br />すべてBrownies Worksが解決します。<br />プロによる業務設計と運用で、<br />バックオフィスをもっと楽に、もっと有意義に。</h2>
         </div>
-        <div class="img-right">
-          <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/main_visual.png" width="585px">
-        </div>
       </div>
       <div class="inq_req">
-        <p class="inquiry">　　　　　　  　お問い合わせ　 　 　　•••＞　</p>
-        <p class="request">　　　　　サービスのお申し込み　　　　•••＞　</p>
+        <p class="inquiry">　　　　　お問い合わせ　　　　•••＞　</p>
+        <p class="request">　　　サービスのお申し込み　　•••＞　</p>
       </div>
       <!-- ここからミッション部分 -->
       <div class="container-mission">
-        <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_our_mission.png" width="274px">
-        <h1>ITをフル活用してバックオフィスを<br>圧倒的にスマートにする</h1>
-        <img src="img/キャプチャ1.png" width="810px">
+        <img class="mission-img-a" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_our_mission.png" width="274px">
+        <h1>ITをフル活用してバックオフィスを<br>圧倒的にスマートする</h1>
+        <img class="mission-img-b" src="img/キャプチャ1.png" width="810px">
       </div>
       <!-- ここからプロブレム部分 -->
-      <div class="wrapper-problem">
+      <!-- <div class="wrapper-problem">
         <div class="container-problems">
           <div class="problem">
+            <div><img class="order1" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_problem_img_01.jpg" width="282px"></div>
+            <div><span class="order2">「ツールを導入する」だけでは効率化はされない</span><br><span class="test_2">経理、労務、勤怠管理などバックオフィスを効率化するためのITツールが溢れてい<br>ますが、ツールの種類が多すぎて選べないという声を色んなところで耳にします。<br>そして、もっと問題なのは「ツールを導入する」だけでは効率化はされないという<br>ことです。業務フローの中にツールを組み込み、業務のやり方そのものを変えなけ<br>れば効果はでないのです。</span></div>
+          </div>
+          <div class="problem">
+            <div><img class="order3" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_problem_img_02.jpg" width="240px"></div>
+              <div><span class="order4">「バックオフィス全体の業務フローがツギハギだらけに</span><br><span class="test_2">各業務ごとにITツールを導入したけれど、バックオフィス全体の業務フローがツギ<br>ハギだらけで複雑化してしまうケースも。全体的な業務設計が疎かになり、せっか<br>くITツールで効率化をしても複雑な業務フローになってしまいます。</span></div>
+          </div>
+          <div class="problem">
+            <div><img class="order5" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_problem_img_03.jpg" width="282px"></div>
+            <div><span class="order6">中小企業のバックオフィスの3つの「ない」</span><br><span class="test_2">業務のやり方を根本的に変える必要があるとわかっていても、実際の中小企<br>業のバックオフィスの現場には次のような問題が多く聞かれます。<br>•••＞　業務をきちんと設計するスキルが「ない」<br>•••＞　複数のツールを比較検討する時間も「ない」<br>•••＞　最新のITツールを使いこなせる人材もい「ない」</span></div>
+          </div> -->
+
+          <!-- <div class="problem">
             <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_problem_img_01.jpg" width="282px" align="left"><span class="test">「ツールを導入する」だけでは効率化はされない</span><br><span class="test_2">経理、労務、勤怠管理などバックオフィスを効率化するためのITツールが溢れてい<br>ますが、ツールの種類が多すぎて選べないという声を色んなところで耳にします。<br>そして、もっと問題なのは「ツールを導入する」だけでは効率化はされないという<br>ことです。業務フローの中にツールを組み込み、業務のやり方そのものを変えなけ<br>れば効果はでないのです。</span>
           </div>
           <div class="problem">
@@ -58,14 +74,14 @@
           </div>
           <div class="problem">
             <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_problem_img_03.jpg" width="282px" align="left"><span class="test">中小企業のバックオフィスの3つの「ない」</span><br><span class="test_2">業務のやり方を根本的に変える必要があるとわかっていても、実際の中小企<br>業のバックオフィスの現場には次のような問題が多く聞かれます。<br>•••＞　業務をきちんと設計するスキルが「ない」<br>•••＞　複数のツールを比較検討する時間も「ない」<br>•••＞　最新のITツールを使いこなせる人材もい「ない」</span>
-          </div>
-        </div>
-      </div>
+          </div> -->
+        <!-- </div>
+      </div> -->
       <!-- ここから解決します！   -->
       <div class="wrapper-rebuilding">
         <div class="container">
           <div class="rebuilding">
-            <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_brownie_animation.gif" alt="rebuilding" width="490ox" align="center"><p class="rebuilding-text_a">バックオフィスの課題はBrownies Worksにおまかせください。</p>
+            <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_brownie_animation.gif" alt="rebuilding" width="490px" align="center"><p class="rebuilding-text_a">バックオフィスの課題はBrownies Worksにおまかせください。</p>
             <p class="rebuilding-text_b">なかなか進まない改善、ITツールが使いこなせない、そんなことに悩まされることはありません。<br>
 圧倒的にスマートなバックオフィスを構築し、ブラウニーたちが運営してくれる間に、社内リソースを本業に集中させ、業績をアップさせましょう。</p>
           </div>
@@ -75,13 +91,18 @@
         </div>
       </div>
       <div class="putaway">
-        <img src="img/キャプチャ2.png" width="100%">
-        <div class="container">
-          <img src="img/キャプチャ3.png" width="700px">
+        <img class="pitaway1" src="img/キャプチャ2.png" width="1660px">
+          <div class="putaway-title-top">
+            <p class="putaway-title">Brownie（ブラウニー）</p>
+            <p>Brownie（ブラウニー）とはスコットランド地方で伝承されている妖精のこと。</p>
+            <p>住み着いた家の片付けやお掃除を家人のいない間にやってくれる、という伝説を持っています。</p>
+            <p>Brownies Worksはバックオフィスのお仕事をいつの間にかブラウニーたちが片付けてくれる、というコンセプトから生まれたサービスです。</p>
+            <p>Brownies Worksに細かい指示をする必要もマニュアルを作る必要もありません。</p>
+            <p>メニューを選んで必要なデータや書類を提供するだけで、あとはブラウニーたちがぜんぶやってくれます。</p>
         </div>
       </div>
       <!-- ここからソリューション -->
-      <div class="wrapper-solution">
+      <!-- <div class="wrapper-solution">
         <div class="container">
           <div class="header-solution_a">
             <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_our_solution.png" alt="solution" width="320px">
@@ -114,9 +135,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- ここからサービス -->
-      <div class="wrapper-service">
+      <!-- <div class="wrapper-service">
         <div class="container">
           <div class="header-service_a">
             <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_our_service.png" alt="サービス" width="291px">
@@ -124,9 +145,9 @@
           <h3 class="header-service_b">サービス内容</h3>
         </div>
 
-        <div class="contents-services">
+        <div class="contents-services"> -->
         <!-- 利用ツールの選定と運用フローの設計 -->
-          <div class="contents-service_a">
+          <!-- <div class="contents-service_a">
             <h2 class="title-service">利用ツールの選定と運用フローの設計</h2>
             <div class="mein-service_a">
               <h5>お客様の業務内容や状況をヒアリングした上で、業務フローを設計し、最適と考えられるツールを選定します。</h5>
@@ -142,9 +163,9 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- バックオフィスを丸ごと対応 -->
-          <div class="contents-service_b">
+          <!-- <div class="contents-service_b">
             <h2 class="title-service">バックオフィスを丸ごと対応</h2>
             <div class="mein-service_b">
               <h5>バックオフィスの中心である「経理」と「労務」を基本サービスとして、豊富なオプションサービス組み合わせることで、バックオフィス業務を丸ごとBrownies Worksにお任せすることができます。</h5>
@@ -178,9 +199,9 @@
           <p class="about-service">　　 　サービス内容について　　　　•••＞</p>
           <p class="about-plan">　　　料金・プランについて　　　　•••＞</p>
         </div>
-      </div>
+      </div> -->
       <!-- よくある質問 -->
-      <div class="wrapper-question">
+      <!-- <div class="wrapper-question">
         <div class="header-question">
           <div class="header-img-question">
             <img src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_our_question.png" alt="question" width="219px">
@@ -217,11 +238,11 @@
           </div>
         </div>
         <p class="more-question">　　　　　 　　MORE   　　   　　•••＞</p>
-      </div>
+      </div> -->
 
 
       <!-- NEWS -->
-      <div class="wrapper-news">
+      <!-- <div class="wrapper-news">
         <div class="contents-news">
         <img class="icon-news" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/mct_icon_rss.png" alt="wifi" align="right" width="31px">
           <div class="header-news">
@@ -261,10 +282,10 @@
             <h2　class="b-b-text-contact">サービスへのお申込みをされる方はこちら</h2>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- 検索 -->
-      <div class="wraapper-search">
+      <!-- <div class="wraapper-search">
         <div class="header-search">
           <p class="text-a-search">このサイトを広める</p>
           <p class="text-b-search"><i class="fas fa-thumbs-up"></i>いいね！ 117</p>
@@ -314,7 +335,7 @@
           <span class="footer-btn-a">   提携いただける企業様｜パートナー募集　 　•••＞</span>
         </div>
         <div class="footer">© 2019 Brownies Works(ブラウニーズ・ワークス) This Website is created by 株式会社リコネクト</div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
