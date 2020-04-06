@@ -805,9 +805,9 @@ body {
     margin-top: 35px;
     display: inline-block;
 }
-  .kaigyou {
-    display: none;
-  }
+.kaigyou {
+  display: none;
+}
 .footer {
   padding-top: 10px;
   font-size: 1.3rem;
