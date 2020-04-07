@@ -353,12 +353,13 @@ img {
   }
   .ab-contacts {
     margin: 10px auto;
-    width: 95%;
+    width: 98%;
   }
   .a-contacts {
     clear: left;
     width: 95%;
   }
+
   .b-contacts {
     clear: left;
     width: 95%;
@@ -462,15 +463,21 @@ img {
   }
 
 
-
+  /* .wrapper-footer {
+    width: 100%;
+  } */
   .contents-footer {
     width: 100%;
   }
 
   .img-footer {
-    width: 50%;
+    width: 30%;
+    margin: 30px auto;
     clear: left;
   }
+
+
+
   .kaigyou {
     display: block;
   }
