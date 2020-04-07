@@ -787,10 +787,13 @@ body {
 
 .img-footer {
   float: left;
-  /* width: 222px; */
+  width: 222px;
+}
+.text-footer {
+  float: left;
 }
 .syamei-footer h4 {
-  /* text-align: left; */
+  text-align: left;
   margin-bottom: 20px;
 }
 .footer-btn-a {
