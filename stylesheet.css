@@ -147,6 +147,55 @@ body {
   margin-bottom: 50px;
 }
 /* 問題 */
+.problems {
+  width: 1078px;
+  text-align: center;
+  background-color: #fff;
+  margin: 70px auto;
+  padding: 60px;
+}
+.problem1 {
+  float: right;
+}
+.problem1-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+.problem1-contents {
+  padding-top: 20px;
+  width: 592px;
+  line-height: 30px;
+  text-align: left;
+}
+.problem2 {
+  float: left;
+}
+.problem2-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+.problem2-contents {
+  padding-top: 20px;
+  width: 592px;
+  line-height: 30px;
+  text-align: left;
+}
+.problem3 {
+  float: right;
+}
+.problem3-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;  
+}
+.problem3-contents {
+  padding-top: 20px;
+  width: 592px;
+  line-height: 30px;
+  text-align: left;
+}
 
 /* 構築 */
 .rebuilding {
@@ -354,13 +403,13 @@ body {
 .img_a_group_a {
   float: left;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 60px;
   text-align: center;
 }
 
 .img_a_group_b {
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 60px;
   float: left;
 }
 /* バックオフィスを丸ごと対応 */
@@ -780,9 +829,8 @@ body {
   text-align: center;
 }
 .contents-footer {
-  width: 894px;
+  width: 50%;
   display: inline-block;
-  margin-bottom: 60px;
 }
 
 .img-footer {
@@ -795,6 +843,18 @@ body {
 .syamei-footer h4 {
   text-align: left;
   margin-bottom: 20px;
+  font-weight: normal;
+  color: #530000;
+  padding-bottom: 5px;
+}
+.text-footer h5 {
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+.text-footer h4 {
+  text-align: left;
+  font-weight: normal;
 }
 .footer-btn-a {
     color: #fff;
