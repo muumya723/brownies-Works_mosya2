@@ -124,14 +124,72 @@ img {
     width: 67%;
     margin: 0 auto;
   }
-
-  .problem {
-    width: 100%;
-    height: auto;
-    padding: 0px;
-
+/* ここから問題 */
+  .problems {
+    width: 96%;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .problem1 {
+    clear: right;
+  }
+  .problem1-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .problem1-contents {
+    padding-top: 20px;
+    width: 90%;
+    line-height: 25px;
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .problem1-img {
+    width: 50%;
+  }
+  .problem2 {
+    clear: left;
+  }
+  .problem2-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .problem2-contents {
+    padding-top: 20px;
+    width: 90%;
+    line-height: 25px;
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .problem2-img {
+    width: 50%;
   }
 
+  .problem3 {
+    clear: right;
+  }
+  .problem3-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .problem3-contents {
+    padding-top: 20px;
+    width: 90%;
+    line-height: 25px;
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .problem3-img {
+    width: 50%;
+  }
+
+  /* ここから再構築   */
   .rebuilding img {
     width:100%;
     height: auto;
@@ -201,16 +259,9 @@ img {
   }
   /* 利用ツールの選定と運用フローの設計 */
   .contents-service_a {
-    width: 98%;
+    width: 100%;
   }
 
-  .mein-service_a {
-    border: 5px solid #62423B;
-    width: 90%;
-    height:auto;
-    border-radius: 0px;
-    margin: 0 auto;
-  }
   .mein-service_a h5 {
     line-height: 20px;
     padding:15px;
@@ -228,25 +279,31 @@ img {
     margin: 0 auto;
   }
 
+  .mein-service_a {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
   .imgs_a {
-      width: 500px;
-      height: 142px;
-      text-align: center;
-      margin: 0 auto;
+      width: 95%;
+      height: auto;
+      margin-left: 0px;
+      margin: 20px;
   }
   .img_a_group_a {
-    width: 130px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 30px;
+    width: 35%;
+    margin: 10px;
+    /* margin-left: 10px; */
     text-align: center;
+
   }
 
   .img_a_group_b {
-    width: 130px;
-    margin-top: 20px;
-    margin-left: 30px;
-    float: left;
+    width: 35%;
+    margin: 10px;
+    padding-bottom: 20px;
+    /* margin-left: 10px; */
+    text-align: center;
   }
 
   /* バックオフィスを丸ごと対応 */
@@ -306,11 +363,20 @@ img {
     width: 100%;
     margin-top: 10px;
     margin-right: 0px;
+    margin: 10px 0px;
   }
-
   .about-plan {
     width: 100%;
-    margin-top: 10px;
+    margin: 0px 0px;
+  }
+  .header-img-question {
+    padding-top: 25px;
+    width: 30%;
+    margin: 0 auto;
+  }
+  .header-text-question {
+    padding-top: 0px;
+    font-size: 2.5rem;
   }
   .contents-question {
     width: 100%;
@@ -462,22 +528,24 @@ img {
     margin:10px 5px;
   }
 
-
-  /* .wrapper-footer {
-    width: 100%;
-  } */
   .contents-footer {
-    width: 100%;
+    width: 94%;
   }
 
   .img-footer {
     width: 30%;
-    margin: 30px auto;
+    clear: left;
+    text-align: center;
+    margin: 30px 100px;
+  }
+  .text-footer {
+    width: 90%;
     clear: left;
   }
-
-
-
+  .syamei-footer{
+    font-size: 1.6rem;
+    text-align: left;
+  }
   .kaigyou {
     display: block;
   }
@@ -494,7 +562,10 @@ img {
     text-align: center;
     display: inline-block;
   }
-
+  .osirase {
+    padding-top: 40px;
+    font-size: 1.3rem;
+  }
   .footer {
     padding: 20px;
     text-align: center;
