@@ -8,31 +8,63 @@
     <title>Brownies</title>
     <!-- ここでFont Awesomeを読み込んでください -->
     <script src="https://kit.fontawesome.com/3e161cfde5.js" crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <!--ここからヘッダー部分-->
+    <!-- 固定ヘッダー用のブロック -->
+    <div class="fix-header">
+      <div class="fix-header-container clearfix">
+        <ul class="fix-header-btn">
+          <li>Brownies worksとは</li>
+          <li>サービスの内容・料金</li>
+          <li>導入事例</li>
+          <li>よくある質問</li>
+        </ul>
+        <div class="fix-btn">
+          <a href="page/question.html"><p class="inquiry">　お問い合わせ　•••＞　</p></a>
+          <p class="request">　お申し込み•••＞　</p>
+        </div>
+      </div>
+    </div>
+
+    <!--ここから常時表示させるヘッダー部分-->
     <header>
       <div class="container">
         <div class="header-top">
           <h5 class="header-text"><span>経理・労務など</span>中小企業のバックオフィスを丸ごとアウトソーシング<span>。業務設計からツール選定・運用まで。</span></h5>
-          <img class="header-img" src="https://www.brownies.works/wp/wp-content/uploads/2019/12/logo.png">
+          <img class="header-img " src="https://www.brownies.works/wp/wp-content/uploads/2019/12/logo.png">
         </div>
         <ul class="header-btn">
-          <li>brownies worksとは</li>
+          <li>Brownies worksとは</li>
           <li>サービスの内容・料金</li>
           <li>導入事例</li>
           <li>よくある質問</li>
         </ul>
       </div>
     </header>
-
-    <!--こっからヘッダーメイン部分-->
+    <!-- お問い合わせフォーム -->
+    <!-- <div class="signup-modal-wrapper" id="signup-modal">
+      <div class="modal">
+        <div id="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="signup-form">
+          <h2>お問い合わせ</h2>
+          <h4>お問い合わせいただきありがとうございます。</h4>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <input class="form-control" type="password" placeholder="パスワード">
+            <div id="submit-btn">送信</div>
+          </form>
+        </div>
+      </div>
+    </div> -->
+    <!--ここからメイン部分-->
     <div class="container-wrapper">
       <div class="container-main">
-        <div class="left-main">
+        <div class="left-main clearfix">
           <h1><span class="under">バックオフィスの課題<span class="font-small">を</span><br/>一気に解決</span></h1>
-          <img class="img-right" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/main_visual.png" width="589px">
+          <img class="img-right clearfix" src="https://www.brownies.works/wp/wp-content/themes/rcnt/images/main_visual.png" width="589px">
         </div>
 
         <div class="text-left">
@@ -41,7 +73,8 @@
         </div>
       </div>
       <div class="inq_req">
-        <p class="inquiry">　　　　　お問い合わせ　　　　•••＞　</p>
+        <!-- <p class="inquiry">　　　　　お問い合わせ　　　　•••＞　</p> -->
+        <a href="page/question.html"><p class="inquiry">　　　　　お問い合わせ　　　　•••＞　</p></a>
         <p class="request">　　　サービスのお申し込み　　•••＞　</p>
       </div>
       <!-- ここからミッション部分 -->
@@ -343,5 +376,6 @@
         <div class="footer">© 2019 Brownies Works(ブラウニーズ・ワークス) This Website is created by 株式会社リコネクト</div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
